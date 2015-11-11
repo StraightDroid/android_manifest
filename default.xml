@@ -1,4 +1,4 @@
-nifest>
+<manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
