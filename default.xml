@@ -3,9 +3,13 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-4.1.2_r2.1"
            remote="aosp"
            sync-j="4" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
