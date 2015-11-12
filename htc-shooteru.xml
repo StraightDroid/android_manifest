@@ -1,0 +1,7 @@
+<manifest>
+
+  <!-- source tree for htc evo3d alias shooteru -->
+  <project name="StraightDroid/" path="device/htc/shooteru" remote="github" revision="aosp-4.1.2" />
+  <project name="StraightDroid/" path="kernel/htc/shooteru" remote="github" revision="aosp-4.1.2" />
+
+</manifest>
