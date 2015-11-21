@@ -16,9 +16,9 @@
 +curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.io/Android-Terminal-Emulator/downloads/Term-1.0.65.apk 
  unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/Term.apk lib/armeabi/libjackpal-androidterm4.so
  
---- dalvik/vm/native/dalvik_system_Zygote.cpp.org	2015-11-21 13:01:52.263623630 +0100
-+++ dalvik/vm/native/dalvik_system_Zygote.cpp	2015-11-21 13:01:05.511623359 +0100
-@@ -32,7 +32,6 @@
+--- dalvik/vm/native/dalvik_system_Zygote.cpp.org	2015-11-21 20:31:39.527314501 +0100
++++ dalvik/vm/native/dalvik_system_Zygote.cpp	2015-11-21 20:32:02.935314016 +0100
+@@ -32,6 +32,7 @@
  #include <errno.h>
  #include <paths.h>
  #include <sys/personality.h>
