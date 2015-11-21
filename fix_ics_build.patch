@@ -1,0 +1,28 @@
+--- vendor/cm/vendorsetup.sh.org	2015-11-21 12:34:44.815614199 +0100
++++ vendor/cm/vendorsetup.sh	2015-11-21 12:35:30.183614462 +0100
+@@ -1,4 +1 @@
+-for combo in $(wget -o /dev/null -O - https://raw.github.com/CyanogenMod/hudson/master/cm-build-targets | grep ics | awk {'print $1'})
+-do
+-    add_lunch_combo $combo
+-done
++add_lunch_combo shooteru 
+--- vendor/cm/get-prebuilts.org	2015-11-21 12:37:31.991615168 +0100
++++ vendor/cm/get-prebuilts	2015-11-21 12:37:50.579615276 +0100
+@@ -4,6 +4,6 @@
+ mkdir -p $BASEDIR/proprietary
+ 
+ # Get Android Terminal Emulator (we use a prebuilt so it can update from the Market)
+-curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
++curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.io/Android-Terminal-Emulator/downloads/Term-1.0.65.apk 
+ unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/Term.apk lib/armeabi/libjackpal-androidterm4.so
+ 
+--- dalvik/vm/native/dalvik_system_Zygote.cpp	2015-11-21 13:01:52.263623630 +0100
++++ dalvik/vm/native/dalvik_system_Zygote.cpp.org	2015-11-21 13:01:05.511623359 +0100
+@@ -32,7 +32,6 @@
+ #include <errno.h>
+ #include <paths.h>
+ #include <sys/personality.h>
+-#include <sys/resource.h>
+ 
+ #if defined(HAVE_PRCTL)
+ # include <sys/prctl.h>
