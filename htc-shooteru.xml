@@ -1,12 +1,9 @@
 <manifest>
 
-  <!-- source tree for htc evo3d alias shooteru -->i
-<!--
-  <project name="StraightDroid/android_device_htc_shooteru" path="device/htc/shooteru" remote="github" revision="aosp-4.1.2" />
--->
-  <project path="device/htc/msm8660-common" name="CyanogenMod/android_device_htc_msm8660-common" remote="github" revision="ics" />
+ <project path="device/htc/msm8660-common" name="CyanogenMod/android_device_htc_msm8660-common" remote="github" revision="ics" />
 
-  <project name="StraightDroid/android_kernel_htc_shooteru" path="kernel/htc/msm8660" remote="github" revision="ics" />
-  <project name="StraightDroid/android_vendor_htc_shooteru" path="vendor/htc/shooteru" remote="github" revision="ics" />
+ <project name="StraightDroid/android_device_htc_shooteru" path="device/htc/shooteru" remote="github" revision="ics" />
+ <project name="StraightDroid/android_kernel_htc_shooteru" path="kernel/htc/msm8660" remote="github" revision="ics" />
+ <project name="StraightDroid/android_vendor_htc_shooteru" path="vendor/htc/shooteru" remote="github" revision="ics" />
 
 </manifest>
