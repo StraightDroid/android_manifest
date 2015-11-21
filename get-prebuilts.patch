@@ -1,0 +1,10 @@
+--- get-prebuilts.org	2015-11-20 19:08:57.928025823 +0100
++++ get-prebuilts	2015-11-20 19:09:23.960025284 +0100
+@@ -4,6 +4,6 @@
+ mkdir -p $BASEDIR/proprietary
+ 
+ # Get Android Terminal Emulator (we use a prebuilt so it can update from the Market)
+-curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
++curl -L -o $BASEDIR/proprietary/Term.apk -O -L http://jackpal.github.io/Android-Terminal-Emulator/downloads/Term-1.0.65.apk 
+ unzip -o -d $BASEDIR/proprietary $BASEDIR/proprietary/Term.apk lib/armeabi/libjackpal-androidterm4.so
+ 
