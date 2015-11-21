@@ -33,7 +33,7 @@ Fix it up:
 patch -Np0 < fix_ics_build.patch
 ```
 
-Redy to go with
+Ready to go with
 
 https://wiki.cyanogenmod.org/w/Build_for_shooteru
 
