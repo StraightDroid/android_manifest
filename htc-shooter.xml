@@ -1,0 +1,10 @@
+<manifest>
+
+  <!-- source tree for htc evo3d alias shooteru -->i
+<!--
+  <project name="StraightDroid/android_device_htc_shooteru" path="device/htc/shooteru" remote="github" revision="aosp-4.1.2" />
+-->
+  <project name="StraightDroid/android_kernel_htc_shooteru" path="kernel/htc/msm8660" remote="github" revision="ics" />
+  <project name="StraightDroid/android_vendor_htc_shooteru" path="vendor" remote="github" revision="ics" />
+
+</manifest>
