@@ -1,5 +1,5 @@
-The Android Open Source Project Jelly Bean 4.1.2
-==============================================
+The Android Open Source Project Ice Cream Sandwich 4.0.4
+========================================================
 
 To initialize your local repository using the AOSP trees, use a command like this:
 ````bash
