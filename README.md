@@ -1,6 +1,12 @@
 The Android Open Source Project Ice Cream Sandwich 4.0.4
 ========================================================
 
+Test setup on Ubuntu 14.04 LTS and Archlinux 20.11.2015:
+  
+  make 3.8.1
+  multilib gcc / g++ 4.4
+  oracle jdk 1.6.0_45
+
 To initialize your local repository using the AOSP trees, use a command like this:
 ````bash
 repo init --depth=1 -u git://github.com/StraightDroid/android_manifest.git -b ics
@@ -17,8 +23,21 @@ Fetch the ics patches to play the game on new systems:
 curl -o fix_ics_build.patch -O -L https://raw.githubusercontent.com/StraightDroid/android_manifest/ics/fix_ics_build.patch
 ```
 
+Sync the repo, - tea time:
+````bash
+repo sync
+```
 
-Thank's to GitHub/F-AOSP to point me out this ways :-)
+Fix it up:
+````bash
+patch -Np0 < fix_ics_build.patch
+```
+
+Redy to go with
+
+https://wiki.cyanogenmod.org/w/Build_for_shooteru
+
+step "Get prebuilt apps"
 
 StraightDroid
 
