@@ -1,7 +1,7 @@
 The Android Open Source Project Ice Cream Sandwich 4.0.4
 ========================================================
 
-Test setup on Ubuntu 14.04 LTS and Archlinux 20.11.2015:
+Test setup on Ubuntu 14.04 LTS - 20.11.2015:
   
   make 3.8.1
   multilib gcc / g++ 4.4
