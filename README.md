@@ -1,5 +1,4 @@
 The Android Open Source Project Ice Cream Sandwich 4.0.4
-========================================================
 
 Test setup on Ubuntu 14.04 LTS - 20.11.2015:
   
