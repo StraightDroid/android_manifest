@@ -11,6 +11,8 @@ Add HTC m7 alias HTC One resources by typing this:
 ````bash
 curl --create-dirs -L -o .repo/local_manifests/htc-m7.xml -O -L https://raw.githubusercontent.com/StraightDroid/android_manifest/lineage-15.1/htc-m7.xml
 
+repo sync
+
 source build/envsetup.sh
 
 croot
