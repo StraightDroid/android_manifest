@@ -3,7 +3,7 @@ The Android Open Source Project Jelly Bean 4.1.2
 
 To initialize your local repository using the AOSP trees, use a command like this:
 ````bash
-repo init --depth=1 -u git://github.com/StraightDroid/android_manifest.git -b cm-14.1
+repo init --depth=1 -u https://github.com/LineageOS/android.git -b cm-14.1
 ````
 Save your time and harddisk space with "--depth".
 
