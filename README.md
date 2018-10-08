@@ -1,4 +1,4 @@
-The Android Open Source Project LineageOS Bean 4.1.2
+The Android Open Source Project LineageOS 14.1 
 ==============================================
 
 To initialize your local repository using the LineageOS trees, use a command like this:
