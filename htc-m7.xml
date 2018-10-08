@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc"/>
+	<project name="NyQuilXT/android_device_htc_m7" path="device/htc/m7" revision="cm-14.1" />
+	<project name="NyQuilXT/android_device_htc_m7-common" path="device/htc/m7-common" revision="cm-14.1" />
+	<project name="LineageOS/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" />
+	<project name="LineageOS/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" />
+
+</manifest>
