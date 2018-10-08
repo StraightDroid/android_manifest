@@ -10,7 +10,12 @@ Save your time and harddisk space with "--depth".
 Add HTC m7 alias HTC One resources by typing this:
 ````bash
 curl --create-dirs -L -o .repo/local_manifests/htc-m7.xml -O -L https://raw.githubusercontent.com/StraightDroid/android_manifest/cm-14.1/htc-m7.xml
-```
+
+source build/envsetup.sh
+
+croot
+
+brunch lineage_m7-userdebug
 
 Thank's to GitHub/F-AOSP to point me out this ways :-)
 
