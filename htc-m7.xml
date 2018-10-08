@@ -2,8 +2,8 @@
 <manifest>
 
 	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc"/>
-	<project name="NyQuilXT/android_device_htc_m7" path="device/htc/m7" revision="cm-14.1" />
-	<project name="NyQuilXT/android_device_htc_m7-common" path="device/htc/m7-common" revision="cm-14.1" />
+	<project name="StraightDroid/android_device_htc_m7" path="device/htc/m7" />
+	<project name="StraightDroid/android_device_htc_m7-common" path="device/htc/m7-common" />
 
 	<!-- there is no branch 15.1 for this kernel -->
         <project name="LineageOS/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-14.1" />
