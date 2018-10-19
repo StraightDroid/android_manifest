@@ -5,7 +5,7 @@
 	<project name="StraightDroid/android_device_htc_m7" path="device/htc/m7" />
 	<project name="StraightDroid/android_device_htc_m7-common" path="device/htc/m7-common" />
 
-        <project name="StraightDroid/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" />
-        <project name="StraightDroid/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" />
+        <project name="StraightDroid/android_device_htc_msm8960-common" path="device/htc/msm8960-common" />
+        <project name="StraightDroid/android_kernel_htc_msm8960" path="kernel/htc/msm8960" />
 
 </manifest>
