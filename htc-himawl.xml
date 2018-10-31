@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc"/>
+
+	<project name="StraightDroid/android_device_htc_himawl" path="device/htc/himawl" revision="lineage-15.1" />
+        <project name="StraightDroid/android_device_htc_hima-common" path="device/htc/hima-common" revision="lineage-15.1" />
+        <project name="StraightDroid/android_kernel_htc_msm8994" path="kernel/htc/msm8994" revision="lineage-15.1"  />
+
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" />
+
+</manifest>
