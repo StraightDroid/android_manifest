@@ -9,7 +9,7 @@ Save your time and harddisk space with "--depth".
 
 Add HTC himawl  alias HTC One M9 Verizon resources by typing this:
 ````bash
-curl --create-dirs -L -o .repo/local_manifests/htc-himawl -O \
+curl --create-dirs -L -o .repo/local_manifests/htc-himawl.xml -O \
      -L https://raw.githubusercontent.com/StraightDroid/android_manifest/aosp-9.0/htc-himawl.xml
 
 repo sync
