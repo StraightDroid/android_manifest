@@ -3,7 +3,7 @@ The Android Open Source Project Pie 9.0
 
 To initialize your local repository using the AOSP trees with this commandline:
 ````bash
-repo init --depth=1 -u git://github.com/StraightDroid/android_manifest.git -b aosp-9.0
+repo init -u https://android.googlesource.com/platform/manifest --depth=1 -b android-9.0.0_r16
 ````
 Save your time and harddisk space with "--depth".
 
