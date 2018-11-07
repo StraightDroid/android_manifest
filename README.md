@@ -16,7 +16,6 @@ repo sync
 source build/envsetup.sh
 
 lunch aosp_himawl-userdebug
-
-````bash
+````
 
 StraightDroid
