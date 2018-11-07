@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc"/>
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
 
-	<project name="StraightDroid/android_device_htc_himawl" path="device/htc/himawl" revision="lineage-15.1" />
-        <project name="StraightDroid/android_device_htc_hima-common" path="device/htc/hima-common" revision="lineage-15.1" />
-        <project name="StraightDroid/android_kernel_htc_msm8994" path="kernel/htc/msm8994" revision="lineage-15.1"  />
+   <project name="StraightDroid/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-16.0" />
 
-	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" />
+   <project name="StraightDroid/android_device_htc_himawl" path="device/htc/himawl" remote="github" revision="lineage-16.0" />
+
+   <!-- <project name="Claymore1297/android_device_htc_himaul" path="device/htc/himaul" revision="lineage-16.0" /> -->
+
+    <project name="StraightDroid/android_device_htc_hima-common" path="device/htc/hima-common" remote="github" revision="lineage-16.0" />
+
+    <project name="StraightDroid/android_kernel_htc_msm8994" path="kernel/htc/msm8994" remote="github" revision="lineage-16.0" />
+
 
 </manifest>
